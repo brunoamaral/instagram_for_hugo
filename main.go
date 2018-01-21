@@ -4,9 +4,8 @@ import (
   "fmt"
   "github.com/yanatan16/golang-instagram/instagram"
   "net/url"
-
-//  "net/url"
 )
+
 // app is in sandbox mode and Client access bellow is for testing only.
 
 // Client ID 881def4c577c4224b776034a7f4053e6
@@ -29,7 +28,7 @@ ExampleApi_GetUserRecentMedia()
 
 // ExampleApi_GetUserRecentMedia : Get the most recent media published by the owner
 func ExampleApi_GetUserRecentMedia() {
-
+ 
   // *** or ***
   api := instagram.New(ClientID, ClientSecret, AccessToken, true)
 
