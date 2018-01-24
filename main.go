@@ -7,12 +7,10 @@ import (
 )
 
 // app is in sandbox mode and Client access bellow is for testing only.
-
 // Client ID 881def4c577c4224b776034a7f4053e6
-
 // Client Secret e58d56c2b8d34ecabb6b9b446320ad8c  RESET SECRET
-
 // https://api.instagram.com/oauth/authorize/?client_id=881def4c577c4224b776034a7f4053e6&redirect_uri=e58d56c2b8d34ecabb6b9b446320ad8c&response_type=code
+
 var AccessToken string = "c6a415df72224c3793af8b205894089d"
 var ClientID string = "881def4c577c4224b776034a7f4053e6"
 var ClientSecret string = "e58d56c2b8d34ecabb6b9b446320ad8c"
